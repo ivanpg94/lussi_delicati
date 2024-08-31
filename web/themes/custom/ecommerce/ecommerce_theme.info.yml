@@ -1,0 +1,14 @@
+name: 'Ecommerce theme'
+type: theme
+description: 'A custom theme for ecommerce.'
+package: ecommerce
+core_version_requirement: ^9 || ^10 || ^11
+base theme: false
+
+libraries:
+  - ecommerce_theme/variables
+  - ecommerce_theme/general
+  - ecommerce_theme/menu
+  - ecommerce_theme/home
+  - ecommerce_theme/products-page
+  - ecommerce_theme/product-detail

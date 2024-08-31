@@ -1,0 +1,15 @@
+<?php
+
+use Drupal\Component\Utility\Html;
+
+/**
+ * Preprocess variables for html templates.
+ */
+function ecommerce_theme_preprocess_html(&$variables) {
+  // Add path to body
+  $path_class = !$variables['root_path'] ? 'path-frontpage' : 'path-' . Html::getClass($variables['root_path']);
+  if (isset($path_class)) {
+    $variables['attributes']['class'][] = $path_class;
+  }
+}
+

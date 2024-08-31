@@ -1,0 +1,9 @@
+uuid: 934969be-b1f8-4da9-9975-381f39e33035
+langcode: en
+status: true
+dependencies: {  }
+name: Stories
+vid: stories
+description: null
+weight: -9
+new_revision: false

@@ -1,0 +1,60 @@
+4605192b-ea4a-4016-998f-6cb48da7c507:
+  uuid: 4605192b-ea4a-4016-998f-6cb48da7c507
+  tid: '1'
+  vid: shop
+  name: 'Silk jersey'
+  langcode: en
+  description:
+    -
+      value: null
+      format: null
+  weight: '0'
+  parent:
+    -
+      target_id: '0'
+  path: /taxonomy/term/1
+936df74b-d6c2-48ec-8248-277c5d72cefb:
+  uuid: 936df74b-d6c2-48ec-8248-277c5d72cefb
+  tid: '2'
+  vid: stories
+  name: 'Craftmanship manifesto'
+  langcode: en
+  description:
+    -
+      value: null
+      format: null
+  weight: '0'
+  parent:
+    -
+      target_id: '0'
+  path: /taxonomy/term/2
+52e5d6a0-6598-47e9-9491-c65358ec0465:
+  uuid: 52e5d6a0-6598-47e9-9491-c65358ec0465
+  tid: '3'
+  vid: stories
+  name: 'Bridal edit'
+  langcode: en
+  description:
+    -
+      value: null
+      format: null
+  weight: '0'
+  parent:
+    -
+      target_id: '0'
+  path: /taxonomy/term/3
+63d7103f-77d7-49a4-b2ff-0e8f6347db41:
+  uuid: 63d7103f-77d7-49a4-b2ff-0e8f6347db41
+  tid: '4'
+  vid: collections
+  name: 'Winter 2024 lookbook'
+  langcode: en
+  description:
+    -
+      value: null
+      format: null
+  weight: '0'
+  parent:
+    -
+      target_id: '0'
+  path: /taxonomy/term/4

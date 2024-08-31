@@ -1,0 +1,9 @@
+uuid: bfd1d1bc-4972-4e74-aa81-73f13380c9da
+langcode: en
+status: true
+dependencies: {  }
+name: Shop
+vid: shop
+description: null
+weight: -10
+new_revision: false
