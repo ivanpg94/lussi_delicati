@@ -1,0 +1,22 @@
+uuid: a53704e6-f749-4fe9-87f9-7e324a3d56b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - blockgroup.block_group_content.header_right
+  module:
+    - blockgroup
+  theme:
+    - ecommerce_theme
+id: ecommerce_theme_headerright
+theme: ecommerce_theme
+region: header
+weight: -8
+provider: null
+plugin: 'block_group:header_right'
+settings:
+  id: 'block_group:header_right'
+  label: 'header right'
+  label_display: '0'
+  provider: blockgroup
+visibility: {  }

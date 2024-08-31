@@ -1,0 +1,22 @@
+uuid: c463920f-6c64-4a90-a580-3ca28d78dcf0
+langcode: en
+status: true
+dependencies:
+  config:
+    - blockgroup.block_group_content.header_left
+  module:
+    - blockgroup
+  theme:
+    - ecommerce_theme
+id: ecommerce_theme_headerleft
+theme: ecommerce_theme
+region: header
+weight: -10
+provider: null
+plugin: 'block_group:header_left'
+settings:
+  id: 'block_group:header_left'
+  label: 'header left'
+  label_display: '0'
+  provider: blockgroup
+visibility: {  }

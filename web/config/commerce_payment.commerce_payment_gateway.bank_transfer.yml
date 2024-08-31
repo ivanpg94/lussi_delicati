@@ -1,0 +1,19 @@
+uuid: 0093e4fd-d2a5-4d9f-9dae-441767f0c8a3
+langcode: en
+status: true
+dependencies: {  }
+id: bank_transfer
+label: 'Bank transfer'
+weight: null
+plugin: manual
+configuration:
+  display_label: 'Bank transfer'
+  mode: n/a
+  payment_method_types:
+    - credit_card
+  collect_billing_information: true
+  instructions:
+    value: "Important Note:\r\n\r\nThis is a test environment for the payment gateway. Any transactions made here are simulated and will not result in any actual charges. The information entered will not be processed or used for any purchase or service. This test is for demonstration and system evaluation purposes only."
+    format: restricted_html
+conditions: {  }
+conditionOperator: AND

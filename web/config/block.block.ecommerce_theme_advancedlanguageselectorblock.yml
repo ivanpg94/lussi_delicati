@@ -8,8 +8,8 @@ dependencies:
     - ecommerce_theme
 id: ecommerce_theme_advancedlanguageselectorblock
 theme: ecommerce_theme
-region: header
-weight: -6
+region: header_right
+weight: -9
 provider: null
 plugin: advanced_language_selector_block
 settings:

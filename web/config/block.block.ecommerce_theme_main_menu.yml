@@ -12,8 +12,8 @@ _core:
   default_config_hash: KWAiziL39uEzmOJEql_wbUP2RtqGceL3WM2CfxhMelE
 id: ecommerce_theme_main_menu
 theme: ecommerce_theme
-region: header
-weight: -8
+region: header_left
+weight: -9
 provider: null
 plugin: 'system_menu_block:main'
 settings:

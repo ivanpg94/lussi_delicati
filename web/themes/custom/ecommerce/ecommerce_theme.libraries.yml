@@ -22,13 +22,13 @@ home:
     theme:
       assets/css/home.css: {}
 
-product-page:
-  css:
-    theme:
-      assets/css/product-page.css: {}
-
-product-detail:
-  css:
-    theme:
-      assets/css/product-detail.css: {}
+#product-page:
+#  css:
+#    theme:
+#      assets/css/product-page.css: {}
+#
+#product-detail:
+#  css:
+#    theme:
+#      assets/css/product-detail.css: {}
 
