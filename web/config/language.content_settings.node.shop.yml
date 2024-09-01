@@ -1,0 +1,11 @@
+uuid: 545287c3-cc50-4bf9-bc60-3c45db07290c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.shop
+id: node.shop
+target_entity_type_id: node
+target_bundle: shop
+default_langcode: site_default
+language_alterable: false

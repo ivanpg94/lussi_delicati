@@ -2,9 +2,6 @@ uuid: 97c9b7f8-5413-4ef3-8b02-e1cad8353ccb
 langcode: en
 status: true
 dependencies:
-  config:
-    - node.type.article
-    - node.type.page
   module:
     - comment
     - contextual
@@ -26,17 +23,9 @@ permissions:
   - 'access files overview'
   - 'access toolbar'
   - 'administer url aliases'
-  - 'create article content'
-  - 'create page content'
   - 'create url aliases'
-  - 'delete article revisions'
-  - 'delete own article content'
   - 'delete own files'
-  - 'delete own page content'
-  - 'delete page revisions'
-  - 'edit own article content'
   - 'edit own comments'
-  - 'edit own page content'
   - 'revert all revisions'
   - 'view all revisions'
   - 'view own unpublished content'

@@ -1,0 +1,38 @@
+uuid: 22050608-5871-495d-9ee4-aaec79c20c88
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.collection.body
+    - field.field.node.collection.field_image_collection
+    - field.field.node.collection.field_link_collection
+    - field.field.node.collection.field_video_collection
+    - node.type.collection
+  module:
+    - text
+    - user
+id: node.collection.teaser
+targetEntityType: node
+bundle: collection
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_image_collection: true
+  field_link_collection: true
+  field_video_collection: true
+  langcode: true
+  search_api_excerpt: true

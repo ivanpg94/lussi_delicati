@@ -1,0 +1,18 @@
+uuid: 0bc6df84-9451-40a2-99fd-6ff6f2119d23
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Collection
+type: collection
+description: null
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

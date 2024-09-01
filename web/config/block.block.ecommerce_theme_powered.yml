@@ -11,7 +11,7 @@ _core:
 id: ecommerce_theme_powered
 theme: ecommerce_theme
 region: sidebar_first
-weight: -7
+weight: -11
 provider: null
 plugin: system_powered_by_block
 settings:

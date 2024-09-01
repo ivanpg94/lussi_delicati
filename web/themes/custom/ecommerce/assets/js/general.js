@@ -1,3 +1,12 @@
+window.addEventListener('scroll', function() {
+  const headerDiv = document.querySelector('header > div');
+  if (window.scrollY > 50) {
+    headerDiv.classList.add('scrolled');
+  } else {
+    headerDiv.classList.remove('scrolled');
+  }
+});
+
 document.addEventListener('DOMContentLoaded', function () {
   var messages = document.querySelectorAll('div[role="contentinfo"][aria-label="Status message"]');
 

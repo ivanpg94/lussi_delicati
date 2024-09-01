@@ -1,0 +1,29 @@
+uuid: 8f50ffaf-2d39-4ab6-8a9b-b7901c2f5d7c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video_stories
+    - media.type.video
+    - node.type.stories
+id: node.stories.field_video_stories
+field_name: field_video_stories
+entity_type: node
+bundle: stories
+label: Video
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      video: video
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

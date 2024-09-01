@@ -1,0 +1,64 @@
+uuid: c2dcf852-6e41-4bf9-87e0-d099f7bfa202
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.collection.body
+    - field.field.node.collection.field_image_collection
+    - field.field.node.collection.field_link_collection
+    - field.field.node.collection.field_video_collection
+    - node.type.collection
+  module:
+    - link
+    - text
+    - user
+id: node.collection.default
+targetEntityType: node
+bundle: collection
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_image_collection:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_link_collection:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_video_collection:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

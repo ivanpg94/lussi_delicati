@@ -10,8 +10,8 @@ _core:
   default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
 id: ecommerce_theme_page_title
 theme: ecommerce_theme
-region: sidebar_first
-weight: -8
+region: content
+weight: -10
 provider: null
 plugin: page_title_block
 settings:

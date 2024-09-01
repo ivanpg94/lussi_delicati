@@ -1,0 +1,13 @@
+uuid: 2cfcd38b-d176-4655-bb77-e5c1efa7cf6e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  theme:
+    - ecommerce_theme
+id: main__ecommerce_theme
+menu: main
+theme: ecommerce_theme
+block_config: '[]'
+menu_config: '[]'

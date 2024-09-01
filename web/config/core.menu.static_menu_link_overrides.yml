@@ -13,3 +13,27 @@ definitions:
     parent: ''
     expanded: false
     enabled: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__shop__1':
+    weight: -50
+    parent: 'menu_link_content:2a982533-cac1-4da2-89a8-5c713b2835b2'
+    menu_name: main
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__collections__4':
+    weight: -50
+    parent: 'menu_link_content:aeeb4236-7b6b-4ff6-b0ce-40c0087a53cb'
+    menu_name: main
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__stories__3':
+    weight: -50
+    parent: 'menu_link_content:ccfd5e0d-99f6-462b-a8a5-02df5d19d2e7'
+    menu_name: main
+    enabled: true
+    expanded: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__stories__2':
+    weight: -49
+    parent: 'menu_link_content:ccfd5e0d-99f6-462b-a8a5-02df5d19d2e7'
+    menu_name: main
+    expanded: true
+    enabled: true

@@ -5,6 +5,9 @@ dependencies:
   config:
     - commerce_product.commerce_product_type.default
     - field.field.commerce_product.default.body
+    - field.field.commerce_product.default.field_collections
+    - field.field.commerce_product.default.field_shop
+    - field.field.commerce_product.default.field_stories
   module:
     - commerce
     - path
@@ -24,10 +27,29 @@ content:
       rows: 9
       summary_rows: 3
       placeholder: ''
+      show_summary: false
     third_party_settings: {  }
   created:
     type: datetime_timestamp
     weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_collections:
+    type: options_select
+    weight: 11
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_shop:
+    type: options_select
+    weight: 9
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_stories:
+    type: options_select
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }

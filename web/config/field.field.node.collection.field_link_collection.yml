@@ -1,0 +1,23 @@
+uuid: 89ca08c7-c114-4f83-bc8b-fa78a0975276
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link_collection
+    - node.type.collection
+  module:
+    - link
+id: node.collection.field_link_collection
+field_name: field_link_collection
+entity_type: node
+bundle: collection
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

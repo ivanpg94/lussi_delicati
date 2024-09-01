@@ -1,0 +1,29 @@
+uuid: b5ea4729-0bda-473b-8b45-a60052a62b3a
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.default
+    - field.storage.commerce_product.field_shop
+    - taxonomy.vocabulary.shop
+id: commerce_product.default.field_shop
+field_name: field_shop
+entity_type: commerce_product
+bundle: default
+label: Shop
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      shop: shop
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

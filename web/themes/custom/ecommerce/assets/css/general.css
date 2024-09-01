@@ -3,13 +3,11 @@ body{
   margin: 0;
   padding:0;
 }
+
 li{
   list-style: none;
 }
 a{
   text-decoration: none;
+  color: var(--color-principal);
 }
-.path-frontpage main,.path-videos main{
-    max-width: 90%;
-    margin: 0 auto;
-  }

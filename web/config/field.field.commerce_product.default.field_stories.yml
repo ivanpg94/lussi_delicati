@@ -1,0 +1,29 @@
+uuid: 663edc85-e585-4cdf-bc09-2521961b7da0
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.default
+    - field.storage.commerce_product.field_stories
+    - taxonomy.vocabulary.stories
+id: commerce_product.default.field_stories
+field_name: field_stories
+entity_type: commerce_product
+bundle: default
+label: Stories
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      stories: stories
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
