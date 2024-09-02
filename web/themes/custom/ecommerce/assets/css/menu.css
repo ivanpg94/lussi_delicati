@@ -62,16 +62,21 @@ header > * {
 
 header > div {
   position: fixed;
-  top: 1.5rem;
+  top: 2.5rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
+
+header > div #block-ecommerce-theme-headerleft{
+    padding-left: 4rem;
+  }
 
 header > div #block-ecommerce-theme-headerleft nav >ul{
       display: flex;
       margin: 0;
-      margin-top: 1rem;
+      padding: 0;
     }
 
 header > div #block-ecommerce-theme-headerleft nav >ul li{
@@ -80,18 +85,17 @@ header > div #block-ecommerce-theme-headerleft nav >ul li{
 
 header > div #block-ecommerce-theme-headerright{
     display: flex;
+    align-items: center;
+    padding-right: 4rem;
   }
 
 header > div #block-ecommerce-theme-headerright .language-switcher-language-session ul{
         margin: 0;
-        margin-top: 1rem;
       }
 
 header > div #block-ecommerce-theme-headerright #block-ecommerce-theme-cart{
-      margin-top: 1rem;
     }
 
 header > div #block-ecommerce-theme-headerright nav >ul{
       margin: 0;
-      margin-top: 1rem;
     }

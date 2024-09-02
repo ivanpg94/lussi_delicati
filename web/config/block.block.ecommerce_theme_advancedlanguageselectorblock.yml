@@ -1,6 +1,6 @@
 uuid: eff270da-e44f-4863-a628-213026a5dbd0
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - advanced_language_selector

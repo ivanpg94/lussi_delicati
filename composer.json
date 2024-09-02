@@ -16,6 +16,7 @@
     ],
     "require": {
         "composer/installers": "^2.0",
+        "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.5",
         "drupal/advanced_language_selector": "^1.4",
         "drupal/blockgroup": "^2.0",
@@ -25,6 +26,7 @@
         "drupal/core-composer-scaffold": "^10.3",
         "drupal/core-project-message": "^10.3",
         "drupal/core-recommended": "^10.3",
+        "drupal/facets": "^2.0",
         "drupal/inline_entity_form": "^3.0@RC",
         "drupal/search_api": "^1.35",
         "drupal/tb_megamenu": "^3.0@alpha",
@@ -42,11 +44,17 @@
             "drupal/core-project-message": true,
             "phpstan/extension-installer": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
-            "php-http/discovery": true
+            "php-http/discovery": true,
+            "cweagans/composer-patches": true
         },
         "sort-packages": true
     },
     "extra": {
+        "patches": {
+            "drupal/facets": {
+                "language": "https://www.drupal.org/files/issues/2024-01-09/facets-3413405-3.patch"
+            }
+        },
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"

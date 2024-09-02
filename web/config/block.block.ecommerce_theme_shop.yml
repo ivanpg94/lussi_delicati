@@ -1,0 +1,24 @@
+uuid: 7e509119-ace6-4f19-9a99-77442524e1bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.shop
+  module:
+    - facets
+  theme:
+    - ecommerce_theme
+id: ecommerce_theme_shop
+theme: ecommerce_theme
+region: content
+weight: -10
+provider: null
+plugin: 'facet_block:shop'
+settings:
+  id: 'facet_block:shop'
+  label: 'Shop facet'
+  label_display: '0'
+  provider: facets
+  context_mapping: {  }
+  block_id: ecommerce_theme_shop
+visibility: {  }
